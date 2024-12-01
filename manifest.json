@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Find It",
+  "version": "0.0.1",
+  "description": "Start your search with \"ai\" and let our intelligent search engine do the heavy lifting. Get relevant results in seconds. ",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "omnibox": {
+    "keyword": "ai"
+  },
+  "web_accessible_resources": [{
+    "resources": ["defaultSettings.js"],
+    "matches": ["<all_urls>"]
+  }, {
+    "resources": ["systemPrompt.js"],
+    "matches": ["<all_urls>"]
+  }]
+}

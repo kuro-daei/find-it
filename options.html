@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Find It - Settings</title>
+  <link rel="stylesheet" href="options.css">
+  <script src="defaultSettings.js"></script>
+</head>
+
+<body>
+  <h1 class="gradient-text">Find It!</h1>
+  <div style="text-align: center; max-width: 600px; margin: 0 auto 40px;">
+    <p style="font-size: 1.2em; color: #666; margin-bottom: 10px;">Your AI-powered search companion that routes you to
+      the perfect destination.</p>
+    <p style="font-size: 0.9em; color: #339af0; font-style: italic;">Don't forget to save your settings!</p>
+  </div>
+
+  <div class="section">
+    <h2>OpenAI API Key</h2>
+    <input type="password" id="apiKey" placeholder="Enter your OpenAI API key">
+    <p><a href="https://platform.openai.com/api-keys" target="_blank" class="link">Get your OpenAI API key</a></p>
+  </div>
+
+  <div class="section">
+    <h2>System Prompt</h2>
+    <textarea id="systemPrompt" class="system-prompt"
+      placeholder="Enter the system prompt that guides the AI's behavior"></textarea>
+    <p class="hint">This prompt defines how the AI should behave when routing search queries.</p>
+  </div>
+
+  <div id="sections-container">
+    <h2 class="section-heading">Search Sections</h2>
+    <div id="sections-list"></div>
+    <button id="add-section" class="add-button">
+      <span class="add-icon">+</span>
+      <span>Add New Search Section</span>
+    </button>
+  </div>
+
+  <div id="status"
+    style="position: fixed; bottom: 10px; right: 10px; background-color: #f0f0f0; padding: 10px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+  </div>
+  <script src="options.js"></script>
+</body>
+
+</html>
