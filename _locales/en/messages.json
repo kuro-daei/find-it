@@ -1,0 +1,103 @@
+{
+  "appTitle": {
+    "message": "AI Prompt"
+  },
+  "selectedText": {
+    "message": "Selected Text"
+  },
+  "instruction": {
+    "message": "Instruction"
+  },
+  "url": {
+    "message": "url"
+  },
+  "promptPlaceholder": {
+    "message": "Enter your instruction"
+  },
+  "summarize": {
+    "message": "Summarize"
+  },
+  "translateToJapanese": {
+    "message": "Translate to Japanese"
+  },
+  "translateToEnglish": {
+    "message": "Translate to English"
+  },
+  "explain": {
+    "message": "Explain"
+  },
+  "execute": {
+    "message": "Execute"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "processing": {
+    "message": "Processing..."
+  },
+  "result": {
+    "message": "Result"
+  },
+  "copyResult": {
+    "message": "Copy Result"
+  },
+  "optionsTitle": {
+    "message": "Settings"
+  },
+  "appDescription": {
+    "message": "AI-powered search assistant"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "japanese": {
+    "message": "Japanese"
+  },
+  "english": {
+    "message": "English"
+  },
+  "apiKeyTitle": {
+    "message": "OpenAI API Key"
+  },
+  "apiKeyPlaceholder": {
+    "message": "Enter your API key"
+  },
+  "getApiKey": {
+    "message": "Get API Key"
+  },
+  "systemPromptTitle": {
+    "message": "System Prompt"
+  },
+  "systemPromptPlaceholder": {
+    "message": "Enter system prompt to guide AI behavior"
+  },
+  "systemPromptHint": {
+    "message": "This prompt defines how AI should route search queries"
+  },
+  "searchSectionsTitle": {
+    "message": "Search Sections"
+  },
+  "addSection": {
+    "message": "Add New Search Section"
+  },
+  "resetDefaults": {
+    "message": "Reset to Defaults"
+  },
+  "copiedToClipboard": {
+    "message": "Copied!"
+  },
+  "copyFailed": {
+    "message": "Failed to copy"
+  },
+  "unknownError": {
+    "message": "An unknown error occurred"
+  },
+  "errorOccurred": {
+    "message": "An error occurred: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  }
+}

@@ -224,7 +224,7 @@ button:hover {
 .section-title,
 .section-description,
 .section-url {
-    width: 100%;
+    width: 95%;
     padding: 12px 16px;
     border: 2px solid #e2e8f0;
     border-radius: 10px;
@@ -251,7 +251,7 @@ button:hover {
 }
 
 .system-prompt {
-    width: 100%;
+    width: 95%;
     min-height: 120px;
     font-family: 'Menlo', 'Monaco', monospace;
     font-size: 14px;

@@ -1,0 +1,103 @@
+{
+  "appTitle": {
+    "message": "AIプロンプト"
+  },
+  "selectedText": {
+    "message": "選択されたテキスト"
+  },
+  "instruction": {
+    "message": "指示文"
+  },
+  "url": {
+    "message": "url"
+  },
+  "promptPlaceholder": {
+    "message": "指示を入力してください"
+  },
+  "summarize": {
+    "message": "要約"
+  },
+  "translateToJapanese": {
+    "message": "日本語に翻訳"
+  },
+  "translateToEnglish": {
+    "message": "英語に翻訳"
+  },
+  "explain": {
+    "message": "説明"
+  },
+  "execute": {
+    "message": "実行"
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "processing": {
+    "message": "処理中..."
+  },
+  "result": {
+    "message": "結果"
+  },
+  "copyResult": {
+    "message": "結果をコピー"
+  },
+  "optionsTitle": {
+    "message": "設定"
+  },
+  "appDescription": {
+    "message": "AIを活用した検索支援ツール"
+  },
+  "language": {
+    "message": "言語"
+  },
+  "japanese": {
+    "message": "日本語"
+  },
+  "english": {
+    "message": "英語"
+  },
+  "apiKeyTitle": {
+    "message": "OpenAI APIキー"
+  },
+  "apiKeyPlaceholder": {
+    "message": "APIキーを入力してください"
+  },
+  "getApiKey": {
+    "message": "APIキーを取得"
+  },
+  "systemPromptTitle": {
+    "message": "システムプロンプト"
+  },
+  "systemPromptPlaceholder": {
+    "message": "AIの動作を指示するシステムプロンプトを入力"
+  },
+  "systemPromptHint": {
+    "message": "このプロンプトは、検索クエリをルーティングする際のAIの動作を定義します"
+  },
+  "searchSectionsTitle": {
+    "message": "検索セクション"
+  },
+  "addSection": {
+    "message": "新しい検索セクションを追加"
+  },
+  "resetDefaults": {
+    "message": "デフォルトにリセット"
+  },
+  "copiedToClipboard": {
+    "message": "コピーしました！"
+  },
+  "copyFailed": {
+    "message": "コピーに失敗しました"
+  },
+  "unknownError": {
+    "message": "不明なエラーが発生しました"
+  },
+  "errorOccurred": {
+    "message": "エラーが発生しました: $1",
+    "placeholders": {
+      "1": {
+        "content": "$1"
+      }
+    }
+  }
+}

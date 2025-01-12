@@ -2,32 +2,45 @@
   "manifest_version": 3,
   "name": "Find It",
   "version": "0.0.1",
-  "description": "Start your search with \"ai\" and let our intelligent search engine do the heavy lifting. Get relevant results in seconds. ",
+  "description": "Start your search with \"ai\" and let our intelligent search engine do the heavy lifting. Get relevant results in seconds.",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "default_locale": "en",
   "permissions": [
     "tabs",
-    "storage"
+    "storage",
+    "contextMenus",
+    "scripting",
+    "windows",
+    "clipboardWrite"
   ],
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
   "options_page": "options.html",
   "action": {
     "default_icon": {
-      "128": "icon128.png"
+      "128": "find-it.png"
     }
   },
   "icons": {
-    "128": "icon128.png"
+    "128": "find-it.png"
   },
   "omnibox": {
     "keyword": "ai"
   },
-  "web_accessible_resources": [{
-    "resources": ["defaultSettings.js"],
-    "matches": ["<all_urls>"]
-  }, {
-    "resources": ["systemPrompt.js"],
-    "matches": ["<all_urls>"]
-  }]
+  "web_accessible_resources": [
+    {
+      "resources": ["defaultSettings.js", "systemPrompt.js", "ai-prompt.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
